@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
-
 * {
     border: 1px solid red;
     font-family: 'Oswald', sans-serif;
@@ -8,20 +7,39 @@
 
 #title {
     background: yellow;
-    display: block ;
-    
+    display: block;
+    position: relative;
+    max-width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right:50px;
 }
 
 #subtitle {
     background: black;
     color: white;
-    /*add CSS here*/
-    
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right:50px;
 }
 
 .topic {
     background: lightgray;
-    /*add CSS here*/
-    
+    display: inline-block;
+    position: relative;
+    max-width: 100px;
+    margin: 60px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
